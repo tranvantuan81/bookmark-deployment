@@ -6,7 +6,7 @@ services:
     container_name: redis
 
   bookmark_service:
-    image: bookmark_service:dev
+    image: tuan8102/lecture_4:test
     restart: always
     container_name: bookmark_service
     env_file:
